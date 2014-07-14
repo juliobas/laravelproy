@@ -25,7 +25,9 @@ return array(
 	| compatible with Twitter's Bootstrap is given to you by default.
 	|
 	*/
-
-	'pagination' => 'pagination::slider-3',
+	//original
+	//'pagination' => 'pagination::slider-3',
+	//Modificada, ubicada en app/views y se llama pagination.php
+	'pagination' => 'pagination',
 
 );

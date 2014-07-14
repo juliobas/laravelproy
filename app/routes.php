@@ -15,3 +15,6 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::controller("/test", "TestController");
+Route::resource('admin/users', 'Admin_UsersController');
